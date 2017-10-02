@@ -7,7 +7,7 @@ Load modules from memory.
 Suppose you have an input file like this, and you want to load `foo` and `src/bar.js` from memory:
 
 ```js
-// src.main.js
+// src/main.js
 import foo from 'foo';
 import bar from './bar.js';
 
@@ -32,7 +32,7 @@ export default {
 
 If there were named exports:
 ```js
-// src.main.js
+// src/main.js
 export {foo, bar} from 'foobar';
 
 console.log(foo, bar);
